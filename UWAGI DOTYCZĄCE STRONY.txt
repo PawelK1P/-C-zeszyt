@@ -1,8 +1,0 @@
-1.Wzór strony zaliczeniowej instrukcja CSS strona 15
-2.trzy okna
-3.lewe okno --> teoria
-4.środkowe--> do wyświetlania
-5.prawe--> kody i osobno zrzuty ekranu.
-6.zrzuty ekrany mają mieć nazwisko ucznia  czerwoną 29 czcionka, napis wykonujemy w paincie, przycinamy zrzut ekranu tak aby był najmniejszy
-1)definicja pętli
-
