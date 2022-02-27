@@ -1,0 +1,30 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+</head>
+<body>
+<textarea cols="85" rows="30">
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+//Oblicz sumę liczb parzystych który po wczytaniu dwóch liczb dol_trzy_litery i gora_trzy_litery Obliczy sumę liczb parzystych między tymi liczbami.
+    int gora_kar;
+    cout << "Podaj gorna granice obliczania sumy: ";
+    cin >> gora_kar;
+    int dol_kar;
+    cout << "Podaj dolna granice obliczania sumy: ";
+    cin >> dol_kar;
+    int suma_kar=0;
+    for(gora_kar;gora_kar<=dol_kar;gora_kar++)
+    {
+        if(gora_kar%2==0)
+            suma_kar+=gora_kar;
+    }
+    cout <<"suma= "<< suma_kar;
+ 
+ system("PAUSE");
+return EXIT_SUCCESS;
+}
+</textarea>
