@@ -1,0 +1,55 @@
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+</head>
+<body>
+<textarea cols="85" rows="60">
+#include <cstdlib>
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main(int argc, char *argv[])
+{
+//Wczytać dwie liczby sprawdzić czy są pierwsze. Jeśli są podać ich sumę na ekranie. Sprawdzić czy ta suma jest parzysta."
+ cout<<"podaj liczbe naturalna, ktora sprawdze czy jest pierwsza=";
+ int pierwsza_kar;
+ int suma_kar;
+ int k=0;
+ cin>>pierwsza_kar;
+ cout<<"podaj druga liczbe naturalna, ktora sprawdze czy jest pierwsza=";
+ int druga_kar;
+ int n=0;
+ cin>>druga_kar;
+ for(int i=2;i<=sqrt(pierwsza_kar);++i)
+ for(int i=2;i<=sqrt(druga_kar);++i)
+ {
+if ((pierwsza_kar) % i==0)
+if ((druga_kar) % i==0)
+{
+k=1;
+n=1;
+cout<<"liczba "<<pierwsza_kar<<" to nie jest liczba pierwsza jest podzielna przez "
+<<i<<","<<druga_kar<<"tez nie jest pierwsza jest podzielna przez"<<i<<"\n";
+ }
+ }
+ {
+ if ( k==0);
+ if ( n==0);
+ suma_kar=(pierwsza_kar+druga_kar);
+ if (suma_kar%2==0)
+ {
+ cout<<"liczba "<<pierwsza_kar<<" to jest liczba pierwsza,"<<druga_kar<<"  tez jest liczba pierwsza, ich suma wynosi"<<suma_kar<<",jest parzysta"<<"\n";
+}
+}
+{
+if ( k==0);
+if ( n==0);
+suma_kar=(pierwsza_kar+druga_kar);
+if (suma_kar%2==1)
+ {
+cout<<"liczba "<<pierwsza_kar<<" to jest liczba pierwsza,"<<druga_kar<<"  tez jest liczba pierwsza, ich suma wynosi"<<suma_kar<<",jest nieparzysta"<<"\n";
+}
+}
+ system("PAUSE");
+ return EXIT_SUCCESS;
+}
+</textarea>
