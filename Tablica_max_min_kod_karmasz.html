@@ -1,0 +1,32 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+</head>
+<body>
+<textarea cols="85" rows="30">
+#include <cstdlib>
+#include <iostream>
+using namespace std;
+int main(int argc, char *argv[])
+{
+int max=-333333;
+int min=88888;
+ int a[7];
+ for(int i=0;i<=6;i++)
+ {
+ cout<<"podaj A["<<i<<"]=";
+ cin>>a[i];
+ if (a[i]>max) {max=a[i];}
+ if (a[i]<min) {min=a[i];}
+ }
+ cout<<"w tablicy A jest"<<"\n";
+ for(int i=0;i<=6;i++)
+ {
+ cout<<"w komorce A["<<i<<"]="<<a[i]<<"\n";
+}
+ cout<<"Max jest="<<max<<"\n";
+ cout<<"Min jest="<<min<<"\n";
+ system("PAUSE");
+ return EXIT_SUCCESS;
+}
+</textarea>
