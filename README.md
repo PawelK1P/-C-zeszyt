@@ -1,2 +1,2 @@
-ziomek wyloguj sie z kompa ok ????
+
 :}
